@@ -11,7 +11,7 @@
     <link rel="stylesheet" href="./css/media.css">
 </head>
 <body>
-<section class="hero">
+<section class="hero" id="home">
     <a class="logo" href="#"><img src="./img/project-logo.png" alt="logo"></a>
     <div class="hero_content">
         <h1 class="hero_title">PARTNER WITH KONSTRUCT</h1>
@@ -21,21 +21,25 @@
 </section>
 
 <header class="header">
-    <div class="container flex-wrapper">
+    <div class="header_burger header_top-burger"><span></span></div>
+    <div class="header_wrapper container">
         <a href="#" class="header_logo">
             <img src="./img/project-logo-black.png" alt="logo">
         </a>
-        <nav class="header_menu">
-            <a class="header_menu-item" href="#">Home</a>
-            <a class="header_menu-item" href="#">About</a>
-            <a class="header_menu-item" href="#">Services</a>
-            <a class="header_menu-item" href="#">Work</a>
-            <a class="header_menu-item" href="#">Contact</a>
-        </nav>
+        <div class="header_wrapper-burger">
+            <nav class="header_menu">
+                <a class="header_menu-item" href="#home">Home</a>
+                <a class="header_menu-item" href="#about">About</a>
+                <a class="header_menu-item" href="#servicesWork">Services</a>
+                <a class="header_menu-item" href="#servicesWork">Work</a>
+                <a class="header_menu-item" href="#contact">Contact</a>
+            </nav>
+        </div>
     </div>
+
 </header>
 
-<section class="story">
+<section class="story" id="about">
     <div class="container">
         <h2 class="story_title section_title"><span>OUR STORY</span></h2>
         <div class="row story_row">
@@ -69,7 +73,7 @@
 
 </section>
 
-<section class="capabilities">
+<section class="capabilities" id="servicesWork">
     <div class="container">
         <div class="row">
             <div class="col-4 capabilities_col">
@@ -113,7 +117,7 @@
     </div>
 </section>
 
-<section class="get-in-touch">
+<section class="get-in-touch" id="contact">
     <h2 class="get-in-touch_title">Want to build <br> something amazing?</h2>
     <button class="btn get-in-touch-btn">GET IN TOUCH</button>
 </section>
@@ -209,5 +213,6 @@
         <span>© 2017 Konstruct Inc. Designed by Jane Kathryn Teo</span>
     </div>
 </div>
+<script src="./js/script.js"></script>
 </body>
 </html>
