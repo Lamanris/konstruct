@@ -317,6 +317,7 @@ body {
     border: 1px solid #979797;
     margin-right: -1px;
     padding: 0 16px;
+    border-radius: 0;
 }
 
 .newsletter_form_input:focus {
