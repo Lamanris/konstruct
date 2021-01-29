@@ -430,7 +430,11 @@ body {
     height: 12px;
     fill: white;
     margin-left: 24px;
-
+    transition: .6s;
+}
+.footer_icons-icon:hover {
+    fill: #00A4E5;
+    transform: scale(1.2);
 }
 
 .footer_icons-facebook-icon {
